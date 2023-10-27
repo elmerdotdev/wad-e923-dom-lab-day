@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  margin: 0 0 2rem;
+}
+
+input, button {
+  font-size: 20px;
+}
+
+.todo {
+  margin: 2rem auto;
+  padding: 2rem;
+  max-width: 600px;
+  background-color: #A0E9FF;
+  border-radius: 20px;
+}
+
+.todo__items {
+  padding: 1rem;
+  background-color: white;
+}
+
+.todo__items > div {
+  display: flex;
+  margin: .5rem 0;
+  padding: 1rem;
+  background-color: #00A9FF;
+  color: white;
+  transition: all .3s ease-in-out;
+}
+
+.todo__items > div:hover {
+  background-color: #0C356A;
+  color: white;
+}
+
+.todo__items > div > span {
+  flex: 1;
+}
+
+.todo__footer {
+  display: flex;
+  gap: 1rem;
+  padding: 3rem 0 1rem;
+}
+
+.todo__footer_input {
+  flex: 1;
+  display: flex;
+}
+
+.todo__footer_input input {
+  flex: 1;
+  padding: 1rem;
+}
+
+.todo__footer_btn {
+  display: flex;
+}
+
+.todo__footer_btn input {
+  padding: 1rem;
+}
+
+.delete-btn {
+  color: red;
+}
